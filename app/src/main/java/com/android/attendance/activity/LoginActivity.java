@@ -84,7 +84,7 @@ public class LoginActivity extends Activity {
 					}
 					else
 					{
-						if(user_name.equals("admin") & pass_word.equals("admin123")){
+						if(user_name.equals("root") & pass_word.equals("123456")){
 						Intent intent =new Intent(LoginActivity.this,MenuActivity.class);
 						startActivity(intent);
 						Toast.makeText(getApplicationContext(), "Login successful", Toast.LENGTH_SHORT).show();
